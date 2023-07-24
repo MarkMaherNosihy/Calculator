@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 50px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    width: 500px;
+    height: 200px;
+    padding: 100px;
+    border: 1px solid black;
+}
+.display h1{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.clear-delete{
+    display: flex;
+    width: 500px;
+    height: 100px;
+}
+.clear-delete button{
+    width: 250px;
+    height: 100px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+
+}
+.buttons button{
+    width: 125px;
+    height: 125px;
+    padding: 0px;
+    margin: 0px;
+}
